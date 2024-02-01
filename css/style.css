@@ -1,0 +1,142 @@
+body{
+    overflow-x: hidden;
+    background: #85817e;
+}
+
+#carouselExampleSlidesOnly h5,#carouselExampleSlidesOnly p{
+    color: black;
+}
+
+.carousel-item img{
+    height: 300px;
+}
+
+#hero{
+    background: url('../media/images/wdbg.jpg') no-repeat; background-size: cover;
+    height: 1300px;
+}
+
+.herodiv{
+    backdrop-filter: blur(5px);
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.49);
+    border-radius: 20px;
+}
+
+.herodiv div{
+    margin-top: 10%;
+}
+
+#mainh1{
+    font-size: 10rem;
+}
+
+#mainh2{
+    font-size: 5rem;
+}
+
+.card-img-top{
+    height: 800px;
+}
+
+.pb10{
+    width: 10%;
+}
+
+.pb20{
+    width: 20%;
+}
+
+.pb30{
+    width: 30%;
+}
+
+.pb40{
+    width: 40%;
+}
+
+.pb50{
+    width: 50%;
+}
+
+.pb60{
+    width: 60%;
+}
+
+.pb70{
+    width: 70%;
+}
+
+.pb80{
+    width: 80%;
+}
+
+.pb90{
+    width: 90%;
+}
+
+.pb100{
+    width: 100%;
+}
+
+
+.emptypb{
+    width: 0;
+}
+
+.progressanim{
+    transition: width 3s;
+}
+
+[class*="reveal-"]{
+    opacity: 0;
+    transform: translatey(50%);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translatey(0);
+    transition: 1s cubic-bezier(.6,.03,.63,.98);
+}
+
+.reveal-1{
+    transition-delay: 0.05s;
+}
+
+.reveal-2{
+    transition-delay: 0.1s;
+}
+
+.reveal-3{
+    transition-delay: 0.15s;
+}
+
+.reveal-4{
+    transition-delay: 0.2s;
+}
+
+.arrowup{
+    position: sticky;
+    top: 90vh;
+    z-index: 100;
+}
+
+.arrowup a{
+    width: 50px;
+    height: 50px;
+    background: url(../media/images/arrowup.svg) no-repeat;
+    background-size: cover;
+    padding: 1%;
+    transition: .5s;
+}
+
+.arrowup a:hover{
+    background: url(../media/images/arrowup.png) no-repeat;
+    background-size: cover;
+}
+
+footer{
+    z-index: 10;
+}
